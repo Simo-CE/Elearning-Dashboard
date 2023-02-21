@@ -1,0 +1,16 @@
+.trClass {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: white; */
+}
+
+.table>:not(:first-child) {
+    border-top: none !important;
+}
+
+.loader {
+    height: 100px;
+    width: 100px;
+}

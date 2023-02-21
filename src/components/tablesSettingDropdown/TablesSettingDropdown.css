@@ -1,0 +1,7 @@
+.settingDropdown{
+    float: right !important;
+}
+
+.settingDropdown::after{
+    display: none !important;
+}

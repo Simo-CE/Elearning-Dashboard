@@ -1,0 +1,119 @@
+name: Build & deploy
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    
+    # - name: Install Node.js
+    #   uses: actions/setup-node@v1
+    #   with:
+    #     node-version: 12.x
+    
+    - name: Install NPM packages
+      run: npm ci
+    
+    - name: Build project
+      run: npm run build
+    
+    # - name: Run tests and produce reports
+    #   run: npm run test:ci
+    
+    # - name: Publish test results
+    #   uses: IgnusG/jest-report-action@v2.3.3
+    #   if: always()  
+    #   with:
+    #     access-token: ${{ secrets.GITHUB_TOKEN }}   
+
+    - name: Publish code coverage results
+      uses: romeovs/lcov-reporter-action@v0.2.19
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        lcov-file: ./coverage/lcov.info
+
+    - name: Upload production-ready build files
+      uses: actions/upload-artifact@v2
+      with:
+        name: production-files
+        path: ./build
+
+    # - name: Send Email
+    #   uses: cinotify/github-action@main
+    #   with:
+    #     to: 'ahmad.zamstudios@gmail.com'
+    #     subject: 'building main'
+    #     body: 'Site Live Successfully.'
+  
+  sendEmail:
+    name: SendEmail
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Send mail
+      uses: dawidd6/action-send-mail@v3
+      with:
+        # Required mail server address:
+        server_address: ${{secrets.MAIL_HOST}}
+        # Required mail server port:
+        server_port: 587
+        # Optional (recommended): mail server username:
+        username: ${{secrets.MAIL_USERNAME}}
+        # Optional (recommended) mail server password:
+        password: ${{secrets.MAIL_PASSWORD}}
+        # Required mail subject:
+        subject: Github Actions job result
+        # Required recipients' addresses:
+        to: ahmad.zamstudios@gmail.com,usama.zamstudios@gmail.com
+        # Required sender full name (address can be skipped):
+        from: testingadmin@safetytracker.be # <user@example.com>
+        # Optional whether this connection use TLS (default is true if server_port is 465)
+        secure: false
+        # Optional plain body:
+        body: Build job of ${{github.repository}} completed successfully!
+        # Optional HTML body read from file:
+        #html_body: file://README.html
+        # Optional carbon copy recipients:
+        cc: ahmad.zamstudios@gmail.com,leia@example.com
+        # Optional blind carbon copy recipients:
+        bcc: ahmad.zamstudios@gmail.com,hansolo@example.com
+        # Optional recipient of the email response:
+        reply_to: luke@example.com
+        # Optional Message ID this message is replying to:
+        in_reply_to: <random-luke@example.com>
+        # Optional unsigned/invalid certificates allowance:
+        ignore_cert: true
+        # Optional converting Markdown to HTML (set content_type to text/html too):
+        convert_markdown: true
+        # Optional attachments:
+        attachments: attachments.zip,git.diff,./dist/static/*.js
+        # Optional priority: 'high', 'normal' (default) or 'low'
+        priority: low
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    #if: github.ref == 'refs/heads/master' && needs.test-api.result == 'success'
+    steps:
+    - name: Download artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: production-files
+        path: ./build
+    - name: Deploy to gh-pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build

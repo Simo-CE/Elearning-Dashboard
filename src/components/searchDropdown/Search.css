@@ -1,0 +1,65 @@
+.searchable__controls {
+    height: 36px !important;
+    background-color: white !important;
+    /* border: 1px solid #DCDCDC !important; */
+    border-radius: 5px !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05), 0px 0px 2px rgba(0, 0, 0, 0.07), 0px 0px 1px rgba(0, 0, 0, 0.05);
+}
+
+.searchable__controls input {
+    height: 36px !important;
+    color: #313131 !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+
+.searchable--active .searchable__list,
+.searchable--active .searchable__controls {
+    box-shadow: none !important;
+}
+
+.searchable__controls__arrow svg {
+    fill: black !important;
+}
+
+.searchable__controls__arrow__inner {
+    width: 9px !important;
+    height: 8px !important;
+}
+
+.searchable__list {
+    background-color: white !important;
+    font-size: 12px !important;
+    font-weight: 550 !important;
+}
+
+.searchable__list__item {
+    color: #313131 !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+
+.searchable__list__item:hover {
+    background-color: #F2F2F2 !important;
+    color: #313131 !important;
+}
+
+.searchable--active .searchable__controls {
+    border-color: #F2F2F2 !important;
+    border: 1px solid #D8D8D8 !important;
+}
+
+.searchable__list--empty {
+    color: #313131 !important;
+}
+
+.searchable__list {
+    border: 1px solid #D8D8D8 !important;
+    border-top: none !important;
+}
+
+.searchable__controls__input input[type="text"]::placeholder {
+    color: #313131 !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+}

@@ -1,0 +1,33 @@
+.warning-msg {
+  margin-top: 3px;
+}
+
+.warning-msg img {
+  width: 14px;
+  height: 14px;
+}
+
+.warning-msg p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 6px;
+  color: #E0B719;
+  margin-bottom: 0;
+}
+
+.warning-msg2 {
+  margin-top: -3px;
+}
+
+.warning-msg2 img {
+  width: 14px;
+  height: 14px;
+}
+
+.warning-msg2 p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 6px;
+  color: #E0B719;
+  margin-bottom: 0;
+}

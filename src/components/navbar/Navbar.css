@@ -1,0 +1,142 @@
+.breadcrumbs {
+    font-weight: 500;
+    color: #ABABAB;
+    margin-bottom: 0;
+}
+
+.breadcrumbsDetail {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+/* Language custom dropdown */
+
+.langDropdown .btn-primary {
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    /* border-radius: 50%;
+    border: 1.5px solid black; */
+    border: none !important;
+    padding: 3px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show>.btn-primary.dropdown-toggle {
+    background-color: transparent;
+    color: black;
+}
+
+.userProfileDropdown {
+    left: -28px;
+    min-width: 120px;
+}
+
+.langDropdown .dropdown-menu {
+    min-width: 53px;
+    left: -20px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 0;
+}
+
+.langDropdown .dropdown-menu a {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.langDropdown .dropdown-toggle::after {
+    display: none;
+}
+
+.langDropdown,
+.langDropdown .dropdown-toggle {
+    text-transform: uppercase !important;
+}
+
+/* ================ */
+
+.profileDropdown {
+    background: none !important;
+    border: none;
+    user-select: initial !important;
+    padding-right: 0;
+}
+
+.dropdown-toggle::after {
+    color: black !important;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.profileName {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6B6B6B;
+}
+
+.profileEmail {
+    font-weight: 500;
+    white-space: pre-line;
+    word-break: break-all;
+}
+
+.myProfile {
+    font-weight: 500;
+    border-top: 1px solid #DCDCDC;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.profileInfo {
+    padding: 8px 0 0 0;
+    max-width: 160px;
+}
+
+.profileInfo .dropdown-item {
+    cursor: pointer;
+}
+
+.topNav {
+    border-bottom: 1px #D7D7D7 solid;
+}
+
+/* .navbar_lang {
+    border-radius: 50%;
+    border: 1.5px solid black;
+    color: black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px;
+} */
+
+.darkModeImg,
+.bellIconimg {
+    cursor: pointer;
+}
+
+.subNavbar {
+    height: 36px;
+    border: 1px #D7D7D7 solid;
+    border-right: none;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    padding-left: 0;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.subNavColor {
+    color: #42A4DF;
+    cursor: pointer;
+}

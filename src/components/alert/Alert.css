@@ -1,0 +1,23 @@
+.alert {
+	margin: 0px;
+	padding: 7px;
+	background: #47CA5B;
+	border: 1px solid #33B046;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.alertError {
+	background: #f2c4c4;
+	border: 1px solid #fa9999;
+	color: red;
+}
+
+.alert_div {
+	width: 98.5%;
+}

@@ -1,0 +1,48 @@
+body {
+    background: #F8FAFD !important;
+}
+
+.companiestabsStyling,
+.InformationtabsStyling,
+.clientmanagemettabsStyling,
+.localizationtabsStyling,
+.fieldmanagementtabsStyling {
+    border: 1px #D7D7D7 solid;
+    height: 36px;
+    background-color: #FFFFFF;
+    padding-left: 12px;
+}
+
+.nav-tabs .nav-link {
+    color: #ABABAB !important;
+    border: 0px !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.nav-tabs .nav-link:hover {
+    border: 0px solid transparent !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: #42A4DF !important;
+    background-color: transparent;
+    border-color: transparent;
+    border: 0px solid transparent !important;
+    padding-left: 15px;
+}
+
+.InfoTabsButton {
+    background: none !important;
+    height: 35px !important;
+    border: none !important;
+    color: #ABABAB !important;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#infoDropdownMenuButton {
+    color: #42A4DF !important;
+}

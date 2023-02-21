@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto:wght@500&display=swap');
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+
+	.fontsize-12,
+	.nav-tabs .nav-link,
+	.breadcrumbs,
+	.profileName,
+	.profileEmail {
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+	.fontsize-12,
+	.nav-tabs .nav-link,
+	.breadcrumbs,
+	.profileName,
+	.profileEmail {
+		font-size: 12px;
+	}
+
+	.nav-pills .field_items .nav-link {
+		padding-left: 5px;
+	}
+
+	::placeholder {
+		font-size: 11px !important;
+		font-weight: 400 !important;
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+	.fontsize-12,
+	.nav-tabs .nav-link,
+	.breadcrumbs,
+	.profileName,
+	.profileEmail {
+		font-size: 12px;
+	}
+
+	::placeholder {
+		font-size: 12px !important;
+		font-weight: 400 !important;
+	}
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2652px) {
+	.fontsize-9 {
+		font-size: 12px !important;
+	}
+
+	.fontsize-10 {
+		font-size: 14px !important;
+	}
+
+	.fontsize-11,
+	.selectclient,
+	.selectclient {
+		font-size: 13px !important;
+	}
+
+	.fontsize-12,
+	.nav-tabs .nav-link,
+	.breadcrumbs,
+	.profileName,
+	.profileEmail {
+		font-size: 15px !important;
+	}
+
+	.fontsize-13,
+	.breadcrumbsDetail {
+		font-size: 15px !important;
+	}
+
+	.fontsize-16 {
+		font-size: 22px !important;
+	}
+
+	.fontsize-20 {
+		font-size: 22px !important;
+	}
+
+	::placeholder {
+		font-size: 13px !important;
+		font-weight: 400 !important;
+	}
+
+	.nav-tabs .nav-link {
+		line-height: 1.3;
+	}
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2570px) {
+
+	.sidebar a {
+		font-size: 13px !important;
+	}
+
+	.nav-tabs .nav-link,
+	.breadcrumbs,
+	.profileName,
+	.profileEmail {
+		font-size: 13px !important;
+	}
+
+	.darkModeImg {
+		height: 22px;
+		width: 21px;
+	}
+
+	.bellIconimg {
+		height: 25px;
+		width: 22px;
+	}
+
+	::placeholder {
+		font-size: 13px !important;
+		font-weight: 400 !important;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	.sideMargin {
+		margin-left: 50px !important;
+		margin-right: 50px !important;
+	}
+
+	.paginatSideMargin {
+		margin-left: 40px !important;
+		margin-right: 40px !important;
+	}
+
+	.paginationSideMargin .sideMargin {
+		margin: 0px !important;
+	}
+
+	.x-scroll {
+		overflow-x: auto;
+	}
+}

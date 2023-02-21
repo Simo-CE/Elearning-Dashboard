@@ -1,0 +1,39 @@
+.searchBarComponent {
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    width: 100%;
+    height: 30px;
+}
+
+.searchIcon {
+    position: absolute;
+    margin-top: 8px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #ACACAC !important;
+    font-weight: 500;
+}
+
+input[type="text"]:focus::placeholder {
+    color: transparent !important;
+}
+
+.languageSearchBar {
+    width: 100%;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    border-radius: 2px;
+    padding-left: 30px;
+    font-size: 12px;
+}

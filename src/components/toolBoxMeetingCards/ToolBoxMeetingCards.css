@@ -1,0 +1,153 @@
+.cardMainDivStyling {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    height: 315px;
+    padding: 10px;
+}
+
+.deadlineText {
+    font-weight: 500;
+    font-size: 13px;
+    color: #848484;
+    margin-bottom: 0;
+}
+
+.dateText {
+    font-weight: 500;
+    font-size: 12px;
+    color: #B7B7B7;
+    margin-bottom: 0;
+}
+
+.topStatus {
+    height: 17px;
+    background: #F88536;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 11px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 8px;
+    margin-bottom: 0;
+}
+
+.hoursAgo {
+    font-weight: 500;
+    font-size: 10px;
+    color: #E9BC13;
+    margin-bottom: 0;
+}
+
+.tbmTitle {
+    font-weight: 500;
+    font-size: 16px;
+    color: #4E4E4E;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 8px;
+}
+
+.daysLeftNA {
+    height: 22px;
+    background: #A9DFFF;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 10px;
+    color: #1488CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 7px 12px;
+    margin-bottom: 0;
+}
+
+.daysLeftFewDays {
+    height: 22px;
+    background: #FFEDAA;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 10px;
+    color: #A1820A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 7px 12px;
+    margin-bottom: 0;
+}
+
+.daysLeftOverdue {
+    height: 22px;
+    background: #F6CDCD;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 10px;
+    color: #FF3838;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 7px 12px;
+    margin-bottom: 0;
+}
+
+.tbmId {
+    height: 22px;
+    background: white;
+    border: 0.5px solid #DDDDDD;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 10px;
+    color: #848484;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 7px 12px;
+    margin-bottom: 0;
+}
+
+.tbmMainImg img {
+    width: 100%;
+    height: 168px;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.tbmProjectName {
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; */
+    font-weight: 500;
+    font-size: 12px;
+    color: #B7B7B7;
+    margin-bottom: 0;
+}
+
+.userImg1,
+.userImg2,
+.userImg3,
+.userImg4 {
+    margin-right: -10px;
+}
+
+.otherUsersCount {
+    height: 22px;
+    width: 22px;
+    background-color: #A955DC;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

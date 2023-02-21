@@ -1,0 +1,41 @@
+.searchableDropdownComponent a {
+    color: #313131;
+    width: 100%;
+}
+
+.searchableDropdownComponent {
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-image: url("../../assets//arrowDown.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
+
+.searchableDropdownComponent .dropdown-menu.show {
+    left: -15px !important;
+    top: 3px !important;
+    min-width: 210px !important;
+    padding-bottom: 0;
+}
+
+.list-unstyled a {
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.customSearch {
+    width: 188px;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 12px;
+    height: 30px;
+}

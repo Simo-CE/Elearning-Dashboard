@@ -1,0 +1,373 @@
+body {
+    background: #F2F2F2;
+}
+
+.rowStyling {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05),
+        0px 0px 2px rgba(0, 0, 0, 0.07),
+        0px 0px 1px rgba(0, 0, 0, 0.05);
+    /* border-radius: 5px; */
+    position: relative;
+}
+
+.colStyling {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05),
+        0px 0px 2px rgba(0, 0, 0, 0.07),
+        0px 0px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.cardStyling {
+    border: 1px solid #D9D6D6;
+    border-radius: 9px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.file_upload {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.col-9-div,
+.pincode-column {
+    background: #FFFFFF;
+}
+
+.imgHeading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #616161;
+    margin-bottom: 0px;
+}
+
+.signature_div {
+    margin-top: 30px;
+}
+
+.imgSizeText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    color: #B4B4B4;
+}
+
+.removeImg {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #EF3C3C;
+    cursor: pointer;
+}
+
+.removesignature {
+    position: absolute;
+    margin-left: 127px !important;
+    top: 115px;
+}
+
+.labels {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    color: #616161;
+    margin-bottom: 3px;
+}
+
+/* .typetext,
+.typeacronym,
+.typedate,
+.typephone,
+.typeemail {
+    background: #F0F0F0 !important;
+    border: 1px solid #DCDCDC !important;
+    border-radius: 2px !important;
+    box-sizing: border-box !important;
+    height: 29px !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+} */
+.profileinputs {
+    background: #FFFFFF !important;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    height: 29px;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #313131 !important;
+}
+
+.profileDropdowns .rmsc .dropdown-container,
+.profileDropdowns .searchable .searchable__controls,
+.profileDropdowns .searchable__controls {
+    border-radius: 2px !important;
+}
+
+.selectCompnay,
+.selectSite,
+.selectFunction,
+.selectRole,
+.selectDepart,
+.selectReport,
+.selecNativeLang,
+.selectOtherLang {
+    height: 29px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #313131;
+}
+
+::-webkit-input-placeholder {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #313131;
+}
+
+input[type=date] {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: black;
+}
+
+.match_password {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+    color: #37B34A;
+
+}
+
+/* .hrtag {
+    width: 92%;
+    position: absolute;
+    bottom: -60px;
+    border: 1px solid #EBEBEB;
+} */
+
+.passGenerate {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #B4B4B4;
+}
+
+.col-3-div {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.lockImg,
+.unlockImg {
+    float: right;
+    margin-top: -22px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.profName {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #616161;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.proffunction {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    color: #BBBBBB;
+    margin-left: 10px;
+    margin-bottom: 0px;
+
+    /* margin-top: -10px; */
+}
+
+.border {
+    /* width: 40px; */
+    margin-left: 10px;
+    /* margin-top: -10px; */
+    margin-bottom: 0px;
+
+}
+
+.numbertxt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    color: #616161;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+
+    /* margin-top: -10px; */
+}
+
+.langflags {
+    /* margin-top: -10px; */
+    margin-left: 10px;
+}
+
+/* ---------------------------------------
+        change pin code page css
+--------------------------------------- */
+.pincodeHeading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #616161;
+}
+
+.pincodetext {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 30px;
+    color: #B4B4B4;
+}
+
+.pinfield {
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    height: 30px;
+}
+
+.profiletabs {
+    margin-top: 300px;
+    border-top: 1px solid rgba(0, 0, 0, 0.15) !important;
+    padding-top: 20px;
+
+}
+
+.pinlock {
+    position: absolute;
+    right: 20px;
+    margin-top: -23px;
+}
+
+.resetpasstext {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #A6A6A6;
+    display: flex;
+    justify-content: center;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.profiletabsStyling {
+    position: absolute;
+    bottom: 5px;
+    border: none;
+    border-top: 1px solid #EBEBEB;
+    width: 93%;
+    z-index: 1;
+}
+
+.rowHeight {
+    height: 500px;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.info_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C4C4C4;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+    .sideMargin-1024 {
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+    }
+}
+
+#printCard {
+    width: 350px !important;
+    height: 178px !important;
+}
+
+.profiletabsStyling .nav-link {
+    padding-left: 0px !important;
+}
+
+#cardBackground {
+    background: white !important;
+    background-color: white !important;
+}
+
+.downloadCardImg {
+    width: 350px;
+    position: absolute;
+    z-index: -99999;
+    top: 0;
+    opacity: 0;
+}
+
+.profileDropdowns .searchable .searchable__controls .searchable__controls__list-input .searchable__controls__input input {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    color: #313131 !important;
+
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 2000px) {
+    .sideMargin-1024 {
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+    }
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2660px) {
+    .sideMargin-1024 {
+        margin-left: 20% !important;
+        margin-right: 20% !important;
+    }
+}
+
+.profilenumber .inputMask,
+.profileDropdowns .dropdown-heading .gray {
+    font-weight: 400 !important;
+}

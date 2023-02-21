@@ -1,0 +1,251 @@
+/* ========== */
+/* Big Slider */
+/* ========== */
+
+.switchBig {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 18px;
+    top: 5px;
+}
+
+.switchBig input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.sliderBig {
+    position: absolute;
+    cursor: pointer;
+    top: -1px;
+    left: 0;
+    right: -2px;
+    bottom: 0;
+    background-color: #F0F0F0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.sliderBig:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    top: -1px;
+    background-color: #C5C5C5;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.sliderBig {
+    background: #D7F0FF;
+}
+
+input:checked+.sliderBig:before {
+    -webkit-transform: translateX(14px);
+    -ms-transform: translateX(14px);
+    transform: translateX(14px);
+    background: #42A4DF;
+}
+
+.sliderBig.roundBig {
+    border-radius: 34px;
+    height: 18px;
+    width: 32px;
+}
+
+.sliderBig.roundBig:before {
+    border-radius: 50%;
+}
+
+/* ============ */
+/* Small Slider */
+/* ============ */
+
+.switchSmall {
+    position: relative;
+    display: inline-block;
+    width: 27px;
+    height: 12px;
+    top: 5px;
+    margin-top: 5px;
+}
+
+.switchSmall input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.sliderSmall {
+    position: absolute;
+    cursor: pointer;
+    top: -1px;
+    left: 0;
+    right: -2px;
+    bottom: 0;
+    background-color: #F0F0F0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.sliderSmall:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 0px;
+    top: -1px;
+    background-color: #C5C5C5;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.sliderSmall {
+    background: #D7F0FF;
+}
+
+input:checked+.sliderSmall:before {
+    -webkit-transform: translateX(14px);
+    -ms-transform: translateX(14px);
+    transform: translateX(14px);
+    background: #42A4DF;
+}
+
+.sliderSmall.roundSmall {
+    border-radius: 34px;
+    height: 12px;
+    width: 27px;
+}
+
+.sliderSmall.roundSmall:before {
+    border-radius: 50%;
+}
+
+
+
+/* ============ */
+/* Medium Slider */
+/* ============ */
+
+.switchMedium {
+    position: relative;
+    display: inline-block;
+    width: 27px;
+    height: 14px;
+    top: 7px;
+}
+
+.switchMedium input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.sliderMedium {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F0F0F0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.sliderMedium:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 0px;
+    top: -1px;
+    background-color: #C5C5C5;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.sliderMedium {
+    background-color: #DAFFDF;
+}
+
+input:checked+.sliderMedium:before {
+    -webkit-transform: translateX(14px);
+    -ms-transform: translateX(14px);
+    transform: translateX(14px);
+    background: #47CA5B;
+}
+
+.sliderMedium.roundMedium {
+    border-radius: 34px;
+}
+
+.sliderMedium.roundMedium:before {
+    border-radius: 50%;
+}
+
+
+/* ============ */
+/* Dark Slider */
+/* ============ */
+
+.switchDark {
+    position: relative;
+    display: inline-block;
+    width: 27px;
+    height: 14px;
+    top: 7px;
+}
+
+.switchDark input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.sliderDark {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #D8D8D8;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.sliderDark:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 0px;
+    top: -1px;
+    background-color: #ACACAC;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.sliderDark {
+    background-color: #DAFFDF;
+}
+
+input:checked+.sliderDark:before {
+    -webkit-transform: translateX(14px);
+    -ms-transform: translateX(14px);
+    transform: translateX(14px);
+    background: #47CA5B;
+}
+
+.sliderDark.roundDark {
+    border-radius: 34px;
+}
+
+.sliderDark.roundDark:before {
+    border-radius: 50%;
+}

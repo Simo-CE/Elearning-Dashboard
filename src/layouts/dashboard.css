@@ -1,0 +1,36 @@
+body {
+  /* background: #F2F2F2 !important; */
+  font-family: 'Roboto';
+}
+
+/* .trueMainVariates {
+  width: 83%;
+  margin-left: 17%;
+  transition: margin-left .5s;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.falseMainVariates {
+  width: 95.3%;
+  margin-left: 4.7%;
+  transition: margin-left .5s;
+} */
+
+.closeNavBtn {
+  color: #C4C4C4;
+  width: 17px;
+  height: 12px;
+  margin-top: -15px;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: #313131 !important;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sideBarImg {
+  object-fit: contain;
+}

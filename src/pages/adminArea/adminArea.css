@@ -1,0 +1,704 @@
+body {
+  background: #f4f2f2;
+}
+
+.cursorOnIcons {
+  cursor: pointer;
+}
+
+.sortbyDropdown {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newTraningDropdown {
+  color: #7c7c7c;
+  background: #2c8eff;
+  border-radius: 5px;
+}
+
+.newTraningDropdown:hover {
+  color: white !important;
+  background: #2c8eff !important;
+}
+
+.newTraningDropdownMenu a {
+  color: #848484 !important;
+}
+
+.newTraningDropdown::after {
+  display: none;
+}
+
+.internalDropdown {
+  height: 32px;
+  background: #f2f2f2;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #989898;
+}
+
+.typetextCategory {
+  background: #ffffff;
+  border: 1px solid #dcdcdc !important;
+  border-radius: 5px !important;
+  box-sizing: border-box !important;
+  height: 30px !important;
+  font-size: 12px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.typetextCategoryTraining {
+  background: #ffffff;
+  border: 1px solid #dcdcdc !important;
+  border-radius: 5px !important;
+  box-sizing: border-box !important;
+  height: 36px !important;
+  font-size: 12px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.upload_div_cs2_category {
+  position: absolute;
+  right: 8px;
+  top: 26px;
+}
+
+.upload_div_cs2_topic {
+  position: absolute;
+  right: 20px;
+  top: 26px;
+}
+
+.internalDropdown::after {
+  color: #989898 !important;
+}
+
+.pageHeading {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 22px;
+  color: #7c7c7c;
+  margin-bottom: 0;
+}
+
+.div-bg {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05), 0px 0px 2px rgba(0, 0, 0, 0.07),
+    0px 0px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.traningFormLabels {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #616161;
+  margin-bottom: 6px;
+}
+
+.imageDeleteDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  margin-right: 9px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+.addnew {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #2c8eff;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.addNewTraningDropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  height: 36px;
+}
+
+.addNewTraningDropdown::after {
+  content: url(../../assets/arrowDown.png);
+  width: 1px !important;
+  height: 7px;
+  font-size: 0px;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+.typefile {
+  width: 20px;
+  position: absolute;
+  margin-left: -22px;
+  opacity: 0;
+}
+
+.upload_div {
+  position: absolute;
+  right: 25px;
+  /* top: 55px; */
+}
+
+.optional {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: #b8b8b8;
+  margin-bottom: 0;
+}
+
+.fileupload {
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  height: 100%;
+}
+
+.uploadfile-border {
+  background: #ffffff;
+  border: 2px dashed #dcdcdc;
+  border-radius: 3px;
+  height: 87%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadfile {
+  background: #ffffff;
+  border-radius: 3px;
+  height: 85%;
+}
+
+.uploadTraningFile {
+  width: 100%;
+  /* height: 335px; */
+  opacity: 0;
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+}
+
+.TraningFileBorder {
+  background: #ffffff;
+  border: 2px dashed #dcdcdc;
+  border-radius: 3px;
+  /* height: 85%; */
+  position: relative;
+}
+
+.plus-btn {
+  color: #c8c8c8;
+  width: 34px;
+  height: 30px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.minusImg {
+  width: 16px;
+  height: 2px;
+}
+
+.plusImg {
+  width: 16px;
+  height: 16px;
+}
+
+.getCertificate {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 13px;
+  line-height: 16px;
+  color: white;
+  width: 148px;
+  height: 32px;
+  margin-left: 30px;
+  background: #47ca5b;
+  border: 1.5px solid #47ca5b;
+  border-radius: 3px;
+}
+
+.counterOutput {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2c8eff;
+  border: 1px solid #2c8eff;
+  border-radius: 5px;
+  width: 76px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.counterOutput::placeholder {
+  color: #2c8eff !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+}
+
+.react-multi-carousel-list {
+  position: initial !important;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: center !important;
+}
+
+.react-multiple-carousel__arrow--right {
+  margin-right: -58px !important;
+}
+
+.react-multiple-carousel__arrow--left {
+  margin-left: -58px;
+}
+
+.react-multi-carousel-track {
+  gap: 10px;
+}
+
+.react-multiple-carousel__arrow {
+  background: transparent !important;
+  width: 0px !important;
+  height: 0px !important;
+}
+
+.react-multiple-carousel__arrow::before {
+  color: #b6b6b6 !important;
+  background: white;
+  border-radius: 5px;
+}
+
+.traningQuizTabs .nav-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #616161;
+  margin-bottom: 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 46px;
+}
+
+.traningQuizTabs .nav-link.active {
+  background: #ffffff !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #2c8eff !important;
+  padding-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.traningTabsBorder {
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+
+.dragDropdown {
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dragDropdown:hover {
+  background: transparent !important;
+}
+
+.dragDropdown::after {
+  content: url(../../assets/dropdownArrow.svg) !important;
+  border: 0 !important;
+  height: 17px !important;
+  width: 8px !important;
+}
+
+.questionInput,
+.answerInput {
+  height: 46px;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  width: 100%;
+  padding-left: 10px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 14px;
+  color: #616161;
+}
+
+.answerInput {
+  height: 37px !important;
+  padding-right: 146px;
+}
+
+.quizQuesCheckbox+label {
+  display: block;
+  /* margin: 0.2em; */
+  cursor: pointer;
+  /* padding: 0.2em; */
+  margin-bottom: 0;
+  font-family: "Arial";
+}
+
+.quizQuesCheckbox {
+  display: none;
+}
+
+.quizQuesCheckbox+label:before {
+  content: "\2713";
+  background: #e8ffeb;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  padding-left: 0.4em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: white;
+  transition: 0.2s;
+}
+
+.quizQuesCheckbox+label:active:before {
+  transform: scale(0);
+}
+
+.quizQuesCheckbox:checked+label:before {
+  background-color: #48ca5c;
+  border-color: #48ca5c;
+  color: #fff;
+}
+
+.quizQuesCheckbox:disabled+label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+.quizQuesCheckbox:checked:disabled+label:before {
+  transform: scale(1);
+  background-color: #f7c28f;
+  border-color: #f7c28f;
+}
+
+.quizQuesBg {
+  background: #f8f8f8;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 20px 25px 20px 25px;
+}
+
+.answerSelect {
+  height: 26px;
+  background: #ffffff;
+  border: 1px solid #616161;
+  border-radius: 2px;
+}
+
+.multiTraningInput {
+  background: #ffffff;
+  border: 1px solid #616161;
+  border-radius: 5px;
+  padding-left: 10px;
+  height: 36px;
+}
+
+.blue-bg {
+  background: linear-gradient(93.67deg, #eaf4ff 52.77%, #194982 175.18%);
+}
+
+.blueDashedBorder {
+  border: 2px dashed #7d9dc2;
+  border-radius: 3px;
+}
+
+.dragdropfile {
+  position: absolute;
+  max-width: fit-content;
+  margin-right: 8px;
+  left: 12px;
+  top: 23px;
+  height: 80% !important;
+  opacity: 0;
+}
+
+.traningfile {
+  position: absolute;
+  left: 24px;
+  height: 65px;
+  opacity: 0;
+}
+
+.traning-select {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #313131;
+  height: 36px;
+}
+
+/* ---------------------assignments------------------- */
+.selectStatus {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 5%), 0px 0px 2px rgb(0 0 0 / 7%),
+    0px 0px 1px rgb(0 0 0 / 5%);
+  border-radius: 5px;
+  width: 126px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #989898;
+  border: 0;
+}
+
+.pageheading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #7c7c7c;
+}
+
+.dashboardTabs .nav-link {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 14px;
+  color: #adadad !important;
+}
+
+.dashboardTabs .nav-link.active {
+  color: #2c8eff !important;
+}
+
+/* ----------------Dashboard--------------------- */
+.dashbordDiv-bg {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05), 0px 0px 2px rgba(0, 0, 0, 0.07),
+    0px 0px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+}
+
+.dashbordDropdown {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 14px;
+  color: #989898;
+  height: 32px;
+  background: #f2f2f2 !important;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashbordDropdown:hover {
+  color: #989898;
+}
+
+.totalBall {
+  width: 100px;
+  height: 100px;
+  background: #2c8eff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.internalBall,
+.externalBall {
+  width: 60px;
+  height: 60px;
+  background: #8c2cae;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.externalBall {
+  background: #eb7421 !important;
+}
+
+.clock-bg {
+  background-image: url(../../assets/adminArea/clockImg.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-position-x: left !important;
+}
+
+.user-bg {
+  background-image: url(../../assets/adminArea/user-bg.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-position-x: left !important;
+  /* background-size: 35% 60% !important; */
+}
+
+.lastAddTraningTableHead tr th {
+  background: #f9f9f9 !important;
+}
+
+.apexcharts-yaxis-title-text {
+  display: none;
+}
+
+.apexcharts-legend {
+  inset: auto -5px 8px !important;
+}
+
+.apexcharts-legend-text {
+  font-size: 11px !important;
+}
+
+.apexcharts-yaxis-inversed {
+  display: none;
+}
+
+/* ----------------userDocument----------------- */
+
+.filters .nav-link.active .activeImg {
+  display: none;
+}
+
+.filters .nav-link.active .nonActiveImg {
+  display: initial !important;
+}
+
+.scoreValue {
+  width: 60px;
+}
+
+.delIcon {
+  position: relative;
+  left: -10px;
+  top: 135px;
+  z-index: 12;
+}
+
+.classiImgPrev {
+  position: absolute;
+  width: 100%;
+  height: 105px;
+  top: 3px;
+  left: 4px;
+}
+
+.classiImgPrev img {
+  object-fit: cover !important;
+}
+
+.removeUploadImg {
+  display: none;
+}
+
+.carouselItems {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05), 0px 0px 2px rgba(0, 0, 0, 0.07),
+    0px 0px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.uploadSuccess {
+  background: #47ca5b;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+.traningTextArea {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #313131;
+  height: 90%;
+}
+
+.allCategoriesCards {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05), 0px 0px 2px rgba(0, 0, 0, 0.07),
+    0px 0px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  border: 0;
+}
+
+.allCategoriesCards .card-body {
+  padding-left: 12px !important;
+}
+
+.seriesTraningTableHead tr th:nth-child(5),
+.traningTableHead tr th:nth-child(5) {
+  width: 20%;
+}
+
+.infoIconTool {
+  position: absolute;
+  right: 8px;
+  cursor: pointer;
+}
+
+.border-dashed {
+  background: #FFFFFF;
+  border: 1px dashed #C8C8C8;
+  border-radius: 2px;
+}

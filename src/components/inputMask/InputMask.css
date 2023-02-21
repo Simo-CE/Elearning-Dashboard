@@ -1,0 +1,17 @@
+.inputMask {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 36px;
+    font-size: 12px;
+    text-decoration: transparent;
+    font-weight: 500;
+    color: #313131 !important;
+}
+
+.inputMask:focus {
+    outline: none;
+    text-decoration: transparent;
+}

@@ -1,0 +1,10 @@
+.darkMode {
+    color: white !important;
+    background-color: black !important;
+    border-color: white !important;
+}
+
+.lightMode {
+    color: black !important;
+    /* background-color: white !important; */
+}

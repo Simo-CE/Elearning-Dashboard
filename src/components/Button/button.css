@@ -1,0 +1,926 @@
+.updateBtn {
+  height: 30px;
+  background: #ff772a;
+  border: 1px solid #ff772a;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.uploadimgbtn {
+  height: 30px;
+  background: #42a4df;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ffffff;
+  border: 0px;
+  margin-left: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.resetpassword {
+  background: #ff8d3e;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  border: 0px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.resendNow {
+  font-size: 13px;
+  font-weight: 500;
+  color: #40a7e3;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding-left: 0;
+  margin-top: 5px;
+}
+
+.loginButton {
+  background-color: #37b34a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.downloadbtn {
+  background: #47ca5b;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  border: 0px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.download-icon {
+  width: 8px;
+  height: 9px;
+  margin-left: 5px;
+}
+
+.printbtn,
+.qrbtn {
+  background: #f2f2f2;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 14px;
+  color: #898989;
+  border: 0px;
+  height: 28px;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.print-icon,
+.forward-icon {
+  width: 14px;
+  height: 12.25px;
+  margin-left: 5px;
+}
+
+.nextbtn {
+  background: #42a4df;
+  border: 1px solid #42a4df;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  height: 28px;
+}
+
+.create_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #ffffff;
+  background: #2c8eff;
+  border: 1px solid #2c8eff;
+  border-radius: 5px;
+  height: 30px;
+  padding: 0px 10px;
+}
+
+.createOutlineBtn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #2c8eff;
+  background: transparent;
+  border: 1px solid #2c8eff;
+  border-radius: 5px;
+  height: 30px;
+  padding: 0px 10px;
+}
+
+.upcomingButton {
+  background: #42a4df;
+  width: unset;
+  height: 22px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  position: absolute;
+  left: 16px;
+}
+
+.journeyModalCloseButton {
+  height: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  background: none;
+  color: #8b8b8b;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.saveAsNewButton {
+  background: none;
+  border: 1px solid #42a4df !important;
+  width: unset;
+  height: 32px;
+  border: none;
+  color: #42a4df;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.updateSaveButton {
+  background: #ff772a;
+  width: unset;
+  height: 32px;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.journeyModalSubmitButton {
+  height: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  background: #47ca5b;
+  color: white;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.previewMapButton {
+  background: #a955dc;
+  width: unset;
+  height: 32px;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.foreman_btn,
+.theforeman_btn {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 30px;
+  color: #313131;
+  background: #f6f6f6;
+  border: 1px solid #d8d8d8;
+  border-radius: 2px;
+  height: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theforeman_btn {
+  color: #42a4df !important;
+  background: #ffffff !important;
+  border: 1px solid #42a4df !important;
+}
+
+.pending_btn,
+.ongoing_btn,
+.erected_btn,
+.usable_btn,
+.cancelled_btn,
+.improper_btn,
+.expired_btn,
+.removable_btn,
+.dismantled_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  background: #a4a4a4;
+  border-radius: 10px;
+  border: 0;
+}
+
+.ongoing_btn {
+  background: #facc1d !important;
+}
+
+.erected_btn {
+  background: #1488cc;
+}
+
+.usable_btn {
+  background: #47ca5b;
+}
+
+.cancelled_btn {
+  background: #dadada;
+}
+
+.improper_btn {
+  background: #ea82e6;
+}
+
+.immediate_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #ef3c3c;
+  height: 30px;
+  background: #f2f2f2;
+  border: 1px solid #d2d2d2;
+  border-radius: 2px;
+}
+
+.expired_btn {
+  background: #ef3c3c;
+}
+
+.removable_btn {
+  background: #ff772a;
+}
+
+.dismantled_btn {
+  background: #993d0a;
+}
+
+.under_erection_btn,
+.under_inspection_btn,
+.available_btn,
+.notify_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #d2d2d2;
+  height: 30px;
+  background: #f9f9f9;
+  border: 1px solid #d2d2d2;
+  border-radius: 2px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date_btn {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #313131;
+  background: #f2f2f2;
+  border: 1px solid #d2d2d2;
+  border-radius: 2px;
+}
+
+.durations_btn {
+  background: #42a4df;
+  border: 1px solid #2f90ca;
+  border-radius: 2px;
+  height: 26px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #ffffff;
+  text-shadow: 0px 0.3px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.viewVoice_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #42a4df;
+  background: #fafafa;
+  border: 1px solid #42a4df !important;
+  border-radius: 2px;
+  height: 30px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  bottom: 11px;
+  padding: 0px 29px 0px 29px;
+}
+
+.height24 {
+  height: 24px !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .create_btn {
+    font-style: normal;
+    font-size: 10px;
+  }
+}
+
+.createbtn {
+  height: 30px;
+  background: #2c8eff !important;
+  border: 1px solid #2c8eff;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.loadMoreJourneys {
+  background-color: #42a4df;
+  border: 1px solid #1684c6;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  height: 30px;
+}
+
+.cancel {
+  background: none;
+  border: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #8b8b8b;
+}
+
+.deleteanyway_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #ff3838;
+  height: 30px;
+  background: #ffe8e8;
+  border: 1px solid #ffcfcf;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newclient {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #42a4df;
+  border: 0;
+  margin-left: auto;
+  background-color: white;
+}
+
+.info_btn,
+.required_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  background: #42a4df;
+  border: 1px solid #d8d8d8;
+  height: 30px;
+}
+
+.notrequired_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #42a4df;
+  border: 0px;
+}
+
+.status_btn,
+.status_cancel_btn {
+  background: #fdc841;
+  border: 1px solid #e9b227;
+  border-radius: 3px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.status_cancel_btn {
+  background: #a4a4a4;
+  border: 0;
+}
+
+.approve_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #47ca5b;
+  border: 1px solid #34a846;
+  border-radius: 3px;
+  width: 70px;
+  height: 22px;
+  justify-content: center;
+}
+
+.reassign_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1488cc;
+  background: #ffffff;
+  border: 1px solid #1488cc;
+  border-radius: 3px;
+  width: 70px;
+  height: 22px;
+  justify-content: center;
+}
+
+.reject_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ef3c3c;
+  background: #ffffff;
+  border: 1px solid #ef3c3c;
+  border-radius: 3px;
+  width: 70px;
+  height: 22px;
+  justify-content: center;
+}
+
+.saved_btn {
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #47ca5b;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #47ca5b;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.savegrey_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #b5b5b5;
+  background: #e1e1e1;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+.verify_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 25px;
+  color: #ffffff;
+  height: 30px;
+  background: #28a43c;
+  border: 1px solid #28a43c;
+  border-radius: 2px;
+}
+
+.reject_btn {
+  height: 30px;
+  background: #ff5757;
+  border: 1px solid #db1c1c;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.clearFilter_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #fd650f;
+  margin-bottom: 0;
+  border: 0px;
+}
+
+.participented_btn,
+.notyet_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 22px;
+  color: #ffffff;
+  height: 23px;
+  background: #a955dc;
+  border-radius: 2px;
+  border: 0;
+  margin-bottom: 0;
+}
+
+.notyet_btn {
+  background: #fdc841 !important;
+}
+
+.newTemplate_btn,
+.addnew_btn {
+  height: 30px;
+  background: #2c8eff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05), 0px 0px 2px rgba(0, 0, 0, 0.07),
+    0px 0px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #ffffff;
+  border: 0;
+}
+
+.addnew_btn_disable {
+  height: 30px;
+  background: #75a5dd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05), 0px 0px 2px rgba(0, 0, 0, 0.07),
+    0px 0px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #ffffff;
+  border: 0;
+}
+
+.addnew_btn36 {
+  height: 36px;
+  background: #2c8eff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05), 0px 0px 2px rgba(0, 0, 0, 0.07),
+    0px 0px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 30px;
+  color: #ffffff;
+  border: 0;
+}
+
+.update_btn {
+  height: 30px;
+  background: #eb7421;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05), 0px 0px 2px rgba(0, 0, 0, 0.07),
+    0px 0px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 30px;
+  color: #ffffff;
+  border: 0;
+}
+
+.cancel_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a9a7a7;
+  margin-bottom: 0;
+  border: 0;
+}
+
+.save_btn {
+  background: #37c634;
+  border: 0.5px solid #2d9b2b;
+  border-radius: 2px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2652px) {
+
+  .deleteanyway_btn,
+  .cancel,
+  .createbtn,
+  .nextbtn,
+  .printbtn,
+  .qrbtn,
+  .downloadbtn,
+  .resetpassword,
+  .savebtn,
+  .loadMoreJourneys,
+  .newclient {
+    font-size: 13px !important;
+  }
+
+  .create_btn,
+  .uploadimgbtn {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2500px) {
+
+  .create_btn,
+  .uploadimgbtn {
+    font-size: 14px !important;
+  }
+}
+
+.mytraning-btn {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 13px;
+  line-height: 16px;
+  color: #2c8eff;
+  height: 32px;
+  background: #f8fafd;
+  border: 1px solid #2c8eff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.download-btn {
+  height: 28px;
+  background: #47ca5b;
+  border-radius: 3px;
+  border: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.addtocart-btn {
+  height: 27px;
+  background: #ffffff;
+  border: 1.5px solid #2c8eff;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #2c8eff;
+}
+
+.certificate-btn {
+  height: 27px;
+  background: #47ca5b;
+  border-radius: 2px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  border: 0;
+  color: #ffffff;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.renew-btn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration-line: underline;
+  color: #ed4c5c;
+  border: 0;
+  background: transparent;
+}
+
+.back-btn {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  border: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  color: #bdbcbc;
+}
+
+.underReview-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #cbcbcb;
+  height: 32px;
+  background: #f6f6f6;
+  border-radius: 5px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-btn {
+  background: #47ca5b;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  border: 0;
+  height: 32px;
+}
+
+.primaryborder-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #2c8eff;
+  height: 32px;
+  background: #ffffff;
+  border: 1.5px solid #2c8eff;
+  border-radius: 5px;
+}
+
+.payment-btn {
+  height: 43px;
+  background: #2aa93f;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  border: 0;
+}
+
+.addQues-btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #2c8eff;
+  background: #e1efff;
+  border-radius: 5px;
+  border: 0;
+  height: 40px;
+  width: 100%;
+}
+
+.confirm-btn {
+  height: 26px;
+  background: #47ca5b;
+  border: 1px solid #2ba73e;
+  border-radius: 3px;
+
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.internal-btn,
+.exnternal-btn {
+  background: #42a4df;
+  height: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  border: 0;
+  padding: 8px 24px;
+}
+
+.exnternal-btn {
+  color: #ababab;
+  background: #f2f2f2;
+  border: 1px solid #d8d8d8;
+}
+
+.savebtn {
+  height: 30px;
+  background: #35bc4b;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  border: 0;
+}
+
+.csvIcon {
+  width: 15px;
+  height: 16.94px;
+  margin-left: 5px;
+}
+
+.csvButton {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
+  color: #2C8EFF;
+  border: 0;
+  background: transparent;
+}

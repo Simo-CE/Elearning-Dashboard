@@ -1,0 +1,56 @@
+.hk--custom--select>.dropdown-toggle.bs-placeholder {
+  height: 28px;
+  font-size: 12px;
+  color: black;
+  font-weight: 500;
+  border-radius: 2px;
+  background-color: white;
+  line-height: 1.2;
+}
+
+.hk--custom--select .dropdown-menu.inner {
+  font-size: 12px;
+}
+
+.border-primary {
+  border-color: transparent !important;
+}
+
+.hk--custom--select>.dropdown-toggle.bs-placeholder,
+.hk--custom--select>.dropdown-toggle.bs-placeholder:hover,
+.hk--custom--select>.dropdown-toggle.bs-placeholder:focus,
+.hk--custom--select>.dropdown-toggle.bs-placeholder:active {
+  color: black;
+  line-height: 1.6 !important;
+}
+
+.bs-searchbox .form-control {
+  height: 30px;
+  font-size: 11px;
+}
+
+.hk--custom--select>.dropdown-toggle {
+  position: relative;
+  width: 100%;
+  text-align: right;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 28px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  padding-top: 4px !important;
+}
+
+.btn-light {
+  background-color: white !important;
+}
+
+.hk--custom--select>.dropdown-toggle.bs-placeholder,
+.hk--custom--select>.dropdown-toggle {
+  background-image: url("../../assets/dropdownArrow.svg") !important;
+  background-repeat: no-repeat !important;
+  background-size: 12px;
+  background-position: 95% 52%;
+}

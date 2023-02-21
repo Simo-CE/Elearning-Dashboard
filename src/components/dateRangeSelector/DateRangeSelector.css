@@ -1,0 +1,80 @@
+.rangeDropdown {
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    border-radius: 2px;
+    height: 30px;
+    width: 100%;
+}
+
+.dateType {
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 30px !important;
+    font-size: 12px;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.dateRangeDropdown:hover,
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: white;
+    color: #313131;
+    border: 1px solid #D8D8D8;
+}
+
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.dateRangeDropdown {
+    background-image: url("../../assets/arrowDown.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: 96% !important;
+    text-align: initial;
+    width: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    color: #313131;
+}
+
+.dateRangeDropdown:focus {
+    color: #313131;
+}
+
+.dateRangeDropdown::after {
+    display: none;
+}
+
+.rangeDropdown .dropdown-menu.show {
+    min-width: 230px !important;
+    display: grid;
+}
+
+.dateBtn {
+    font-size: 13px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+    text-align: initial;
+}
+
+.customDateBtn {
+    border: none;
+    color: #42A4DF;
+    background-color: white;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: initial;
+}
+
+.daterangepicker .drp-buttons .applyBtn {
+    background-color: #47CA5B !important;
+    border: none;
+}

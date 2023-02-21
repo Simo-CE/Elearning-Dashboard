@@ -1,0 +1,52 @@
+.search_field {
+	border: none;
+	background: #FFFFFF;
+	border: 1px solid #D8D8D8;
+	box-sizing: border-box;
+	border-radius: 2px;
+	padding-left: 30px;
+}
+
+
+.searchIcon {
+	position: absolute;
+	margin-top: 8px;
+}
+
+.search_field:focus {
+	outline: none;
+}
+
+::placeholder {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 11px;
+	line-height: 30px;
+	color: #C8C8C8;
+}
+
+.select_field {
+	background: #FFFFFF;
+	border: 1px solid #D8D8D8;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	color: #313131;
+	height: 30px;
+	width: 100%;
+}
+*:focus {
+	outline: none;
+}
+
+.action {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 11px;
+	line-height: 30px;
+	color: #989797;
+	margin-left: 15px;
+	margin-bottom: 0px;
+}
