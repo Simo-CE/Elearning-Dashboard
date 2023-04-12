@@ -1,5 +1,6 @@
 // export const BASE_URL = process.env.REACT_APP_BACKEND_URL_LIVE;
- export const BASE_URL = "https://newelearning.safetytracker.be/public/api/"; // Dev
+// export const BASE_URL = "https://newelearning.safetytracker.be/public/api/"; // Dev
+ export const BASE_URL = "http://core.allimni.eu/public/api/"; // Dev
 // export const BASE_URL = "http://elearningproapis.safetytracker.be/public/api/"; // Production
 
 //  export const BASE_URL = "http://192.168.18.13/ElearningWebServices/public/api/";
